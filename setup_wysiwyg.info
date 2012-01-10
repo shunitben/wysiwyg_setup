@@ -6,5 +6,5 @@ php = "5.2.4"
 dependencies[] = "fe_wysiwyg"
 dependencies[] = "imce"
 dependencies[] = "imce_mkdir"
-dependencies[] = "wysiwyg (7.x-2.x-dev, >7.x-2.1)"
+dependencies[] = "wysiwyg"
 package = User interface

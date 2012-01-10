@@ -1,6 +1,6 @@
 core = "7.x"
 dependencies[] = "features"
-dependencies[] = "wysiwyg (7.x-2.x-dev, >7.x-2.1)"
+dependencies[] = "wysiwyg"
 dependencies[] = "wysiwyg_filter"
 description = "all you need to setup wysiwyg - the feature"
 features[filter][] = "html_filter"
