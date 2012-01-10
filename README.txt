@@ -1,5 +1,9 @@
 /** What this module does **/
 
+This module is meant to provide the INITIAL installation profile for a site's
+wysiwyg - to save you a couple of hours of checking checkboxes and thinking what
+on earth you did last time.
+
 1.  It forces you to install some modules you might otherwise forget (imce, 
     imce mkdir). You can remove the dependencies from the setup_wysiwyg.info file
     if you don't want them.
