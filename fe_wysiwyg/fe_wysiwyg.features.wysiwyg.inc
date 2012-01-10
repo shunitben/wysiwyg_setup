@@ -19,7 +19,7 @@ function fe_wysiwyg_wysiwyg_default_profiles() {
       'user_choose' => 1,
       'show_toggle' => 1,
       'theme' => 'advanced',
-      'language' => 'he',
+      'language' => 'en',
       'buttons' => array(
         'default' => array(
           'Bold' => 1,
@@ -84,7 +84,7 @@ function fe_wysiwyg_wysiwyg_default_profiles() {
       'user_choose' => 1,
       'show_toggle' => 1,
       'theme' => 'advanced',
-      'language' => 'he',
+      'language' => 'en',
       'buttons' => array(
         'default' => array(
           'Bold' => 1,
