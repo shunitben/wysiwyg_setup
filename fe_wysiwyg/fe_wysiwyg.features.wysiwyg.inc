@@ -10,9 +10,9 @@
 function fe_wysiwyg_wysiwyg_default_profiles() {
   $profiles = array();
 
-  // Exported profile: html_filter
-  $profiles['html_filter'] = array(
-    'format' => 'html_filter',
+  // Exported profile: filtered_html
+  $profiles['filtered_html'] = array(
+    'format' => 'filtered_html',
     'editor' => 'ckeditor',
     'settings' => array(
       'default' => 1,
@@ -75,9 +75,9 @@ function fe_wysiwyg_wysiwyg_default_profiles() {
     'rdf_mapping' => array(),
   );
 
-  // Exported profile: html_full
-  $profiles['html_full'] = array(
-    'format' => 'html_full',
+  // Exported profile: full_html
+  $profiles['full_html'] = array(
+    'format' => 'full_html',
     'editor' => 'ckeditor',
     'settings' => array(
       'default' => 1,

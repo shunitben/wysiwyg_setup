@@ -11,8 +11,8 @@ function fe_wysiwyg_filter_default_formats() {
   $formats = array();
 
   // Exported format: HTML filter
-  $formats['html_filter'] = array(
-    'format' => 'html_filter',
+  $formats['filtered_html'] = array(
+    'format' => 'filtered_html',
     'name' => 'HTML filter',
     'cache' => '1',
     'status' => '1',
@@ -171,8 +171,8 @@ function fe_wysiwyg_filter_default_formats() {
   );
 
   // Exported format: HTML full
-  $formats['html_full'] = array(
-    'format' => 'html_full',
+  $formats['full_html'] = array(
+    'format' => 'full_html',
     'name' => 'HTML full',
     'cache' => '1',
     'status' => '1',

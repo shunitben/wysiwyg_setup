@@ -10,9 +10,9 @@
 function fe_wysiwyg_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: use text format html_filter
-  $permissions['use text format html_filter'] = array(
-    'name' => 'use text format html_filter',
+  // Exported permission: use text format filtered_html
+  $permissions['use text format filtered_html'] = array(
+    'name' => 'use text format filtered_html',
     'roles' => array(
       0 => 'administrator',
       1 => 'anonymous user',
@@ -21,10 +21,12 @@ function fe_wysiwyg_user_default_permissions() {
     'module' => 'filter',
   );
 
-  // Exported permission: use text format html_full
-  $permissions['use text format html_full'] = array(
-    'name' => 'use text format html_full',
-    'roles' => array(),
+  // Exported permission: use text format full_html
+  $permissions['use text format full_html'] = array(
+    'name' => 'use text format full_html',
+    'roles' => array(
+      0 => 'administrator',
+    ),
   );
 
   return $permissions;
