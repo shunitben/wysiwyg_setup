@@ -1,5 +1,5 @@
 core = "7.x"
-name = "setup_wysiwyg"
+name = "wysiwyg_setup"
 description = "all you need to setup wysiwyg"
 php = "5.2.4"
 

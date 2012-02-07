@@ -1,5 +1,5 @@
 // Inspired by http://drupal.org/node/746524#comment-3351158
-CKEDITOR.addStylesSet( 'setup_wysiwyg_styles',
+CKEDITOR.addStylesSet( 'wysiwyg_setup_styles',
 [
     // Block Styles
     { name : 'Title', element : 'h2', styles : { 'color' : '#12637A', 'font-size' : '18px' } },
