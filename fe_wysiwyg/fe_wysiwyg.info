@@ -13,3 +13,4 @@ features[user_permission][] = "use text format html_full"
 features[user_role][] = "administrator"
 features[wysiwyg][] = "html_filter"
 features[wysiwyg][] = "html_full"
+
