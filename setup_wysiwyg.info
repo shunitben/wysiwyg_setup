@@ -1,0 +1,10 @@
+core = "7.x"
+name = "setup_wysiwyg"
+description = "all you need to setup wysiwyg"
+php = "5.2.4"
+
+dependencies[] = "fe_wysiwyg"
+dependencies[] = "imce"
+dependencies[] = "imce_mkdir"
+dependencies[] = "wysiwyg"
+package = User interface
